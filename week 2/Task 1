@@ -1,5 +1,5 @@
 import java.util.*;
-import java.util.stream.*;
+
 
 public class SecondHighestStream {
     public static void main(String[] args) {
@@ -26,5 +26,7 @@ public class SecondHighestStream {
         } else {
             System.out.println(-1);
         }
+         sc.close();
+
     }
 }

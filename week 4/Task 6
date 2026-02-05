@@ -1,7 +1,7 @@
 class Solution {
     public void moveZeroes(int[] nums) {
 
-        int index = 0; // non-zero ka position
+        int index = 0;
 
         // Step 1: shift non-zero forward
         for (int num : nums) {
